@@ -1,0 +1,46 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    background-color:rgb(66, 75, 47);
+}
+#navbar{
+    height:60px;
+    background-color: rgb(81, 151, 213);
+    overflow: hidden;
+}
+#navbar ul{
+    float:right;
+    margin-right:10px;
+}
+#navbar ul li{
+    display:inline-block;
+    line-height:60px;
+    list-style-type:none;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#navbar ul li a:hover{
+    background-color:rgb(189, 27, 116);
+    border-radius: 5px;
+}
+#navbar #logo{
+    line-height:60px;
+    margin-left: 10px;
+    float:left;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+span{
+    color: rgb(189, 27, 116);
+    font-style: bolder;
+}
